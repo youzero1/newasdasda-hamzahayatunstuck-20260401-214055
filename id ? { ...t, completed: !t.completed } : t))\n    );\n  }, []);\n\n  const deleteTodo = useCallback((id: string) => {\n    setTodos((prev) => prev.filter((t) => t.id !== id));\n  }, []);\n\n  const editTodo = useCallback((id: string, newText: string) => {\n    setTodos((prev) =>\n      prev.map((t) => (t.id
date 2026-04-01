@@ -1,0 +1,1 @@
+id ? { ...t, text: newText } : t))\n    );\n  }, []);\n\n  const clearCompleted = useCallback(() => {\n    setTodos((prev) => prev.filter((t) => !t.completed));\n  }, []);\n\n  const filteredTodos = todos\n    .filter((t) => {\n      if (filter
